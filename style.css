@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -27,7 +28,7 @@ hr{
 
 .container-centre{
 
-    max-width: 600px;
+    text-align: center;
     margin: auto;  
 }
 
@@ -60,7 +61,7 @@ hr{
     padding: 0rem 0.5rem;
     
 }
-
+ 
 /**navigation**/
 .navigation {
     background-color: var(--primary-color);
@@ -112,3 +113,35 @@ hr{
     
 }
 
+/**section**/
+
+.section{
+
+    padding: 1rem 1rem;
+}
+
+.section h3{
+    text-align: center;
+} 
+
+.gray {
+    background-color: #E5E7EB;
+
+}
+
+/**footer**/
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer .links{
+    color:#173F5F ;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
