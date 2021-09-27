@@ -42,12 +42,14 @@ hr{
     color: #173F5F;
     border-radius: 0.5rem;
     padding: 0rem 1rem;
+    text-align: center
 } 
 .secondary-link {
     color: #173F5F;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color); 
-    padding: 0rem 1rem
+    padding: 0rem 1rem;
+    text-align: center
 } 
 
 
@@ -67,7 +69,8 @@ hr{
     background-color: var(--primary-color);
     color: #173F5F;
     padding: 1rem 1rem;
-    border-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem ;
 
 }
 
@@ -126,6 +129,7 @@ hr{
 
 .gray {
     background-color: #E5E7EB;
+    
 
 }
 
@@ -135,6 +139,8 @@ hr{
     padding: 1rem;
     text-align: center;
     color: white;
+    border-top-left-radius: 0.5rem ;
+    border-top-right-radius: 0.5rem;
     
 }
 
