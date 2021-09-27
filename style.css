@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --primary-color:#6EE7B7;
+    --primary-color:
+    #10B981;
     --secondary-color: gray;
 }
 
@@ -37,21 +38,17 @@ hr{
 }
 .primary-link {
     background-color: var(--primary-color);
-    color: #B50E80;
+    color: #173F5F;
     border-radius: 0.5rem;
     padding: 0rem 1rem;
 } 
 .secondary-link {
-    color: #B50E80;
+    color: #173F5F;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color); 
     padding: 0rem 1rem
 } 
 
-.header { 
-    text-align: center;
-    
-}
 
 /**list**/
 .non-bullet {
@@ -67,7 +64,7 @@ hr{
 /**navigation**/
 .navigation {
     background-color: var(--primary-color);
-    color: #B50E80;
+    color: #173F5F;
     padding: 1rem 1rem;
     border-radius: 0.5rem;
 
@@ -81,7 +78,7 @@ hr{
 
 .navigation .link
 {
-    color:#B50E80;
+    color:#173F5F;
     padding-right: 1rem;
     
 }
@@ -95,3 +92,23 @@ hr{
     font-weight: bold;
 
 }
+/**header**/
+.header { 
+    text-align: center;
+    color: var(--secondary-color);
+    
+}
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+    
+}
+
