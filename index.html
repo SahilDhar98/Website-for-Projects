@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library.</title>
-    <link rel="stylesheet" href="style.css">
+    <link  href="style.css" rel="stylesheet">
 </head>
 <body>
-   <h1>Sahil's projects library.</h1>
+   <h1 id= "lib-header" >Sahil's projects library.</h1>
     <p>I am making a website for all my projects so that all my projects look good and consistent</p>
 
     <hr>
@@ -18,23 +18,25 @@
     <h2>This is the second largest heading</h2>
 
     <p>This is a paragraph.This is  afree flowing and will wrap at the end like a paragraph<p>
+        <p>This paragragh will have <strong>bold</strong> text .</p>
     <small>This is a small text.</small>
      
     <hr>   
  
     <h2>@containers</h2>
-    <h3>flud containers</h3>
-    <div>This is a fluid container and will go till the end of page</div>
+    <h3>fluid containers</h3>
+    <div class="container 
+    container - fluid" >This is a fluid container and will go till the end of page</div>
 
     <h3>centre container</h3>
-    <div>This is a central container and will go till  a specified width</div>
+    <div class="container container-centre">This is a central container and will go till  a specified width</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="http://">Primary Link</a>
-    <a href="http://">Secondary link</a>
+    <a class = "link primary-link" href="http://">Link1</a>
+    <a class="link secondary-link "href="http://">link2</a>
 
     <hr>
     
@@ -53,6 +55,7 @@
     <ul>
         <li>Inline Intem One</li>
         <li>Inline Intem Two</li>
+
         <li>Inline Intem Two</li>
     </ul>
 
@@ -91,7 +94,7 @@
 
     <header>
         <img src="images/heroimage2.svg"/>
-        <h2>Header inside hero</h2>
+        <h2 class = "header">Sahil the <span>web developer</span>.</h2>
 
     </header>
 
@@ -116,9 +119,9 @@
 <h2>@footer</h2>
 <footer>
     
-    <div>some small heding inside footer</div>
-    <ul>
-        <li>socialone</li>
+    <div>some small heading inside footer</div>
+    <ul class="list-inline">
+        <li >socialone</li>
         <li>socialtwo</li>
         <li>socialthree</li>
     </ul>
